@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <title>Loadingscreen</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload='startTime()'>
+
+        <div id="particle"></div>
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="config.js"></script>
+
+        <h1 id="logo"><strong style="color: #e4e708">Server</strong></h1>
+        <!--<h1 id="logotext"><strong style="color: #000000;">Producer: Obertonregister#4197<strong></h1>-->
+        <h1 id="music"><strong style="color: aqua;">Press Spacebar to Start/Stop the Music</strong></h1>
+        <!-- To get the servername centered, please navigate to main.css -> #logo -> margin-left: ***; -->
+        <div class="loadbar">
+                <div class="progressBar"></div>
+        </div>
+        <div id="showTime">Uhrzeit</div>
+
+        <div id="audio">
+          <audio controls loop autoplay hidden>
+          <!-- Audio is looped, plays automatically and is hidden -->
+              <source src="Pressure.wav" type="audio/wav">
+          </audio>
+        </div>
+
+        <script src="config.js"></script>
+        <script type="text/javascript"></script>
