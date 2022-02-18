@@ -18,4 +18,4 @@
 
 
 ## Bug-Report
-* if you find a bug fork the project and send your bug in
+* if you find a bug fork the project and send your bug in or dm `Koma#0001` on Discord :)
