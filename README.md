@@ -15,3 +15,7 @@
 ## Infos / How to use
 ![image](https://user-images.githubusercontent.com/77354592/154705483-96d1e7b5-1d3c-431e-b01a-76bdb975fbaa.png)
 * Add your song in line 32 in `index.html` and change `audio/wav`
+
+
+## Bug-Report
+* if you find a bug fork the project and send your bug in
