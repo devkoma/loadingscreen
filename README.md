@@ -18,4 +18,4 @@
 
 
 ## Bug-Report
-* if you find a bug fork the project and send your bug in or dm `Koma#0001` on Discord :)
+* If you fine a bug create a [issues](https://github.com/devkoma/loadingscreen/issues). Or send a dm to `Koma#0001` on Discord :)
